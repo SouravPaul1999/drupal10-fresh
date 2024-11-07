@@ -1,0 +1,14 @@
+uuid: cfe60267-6dfd-48e8-966f-faf26e56abd4
+langcode: en-gb
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: vymHlgJy26BuI5GGj9-IXjwR3dRC5C0tij4BpWJnoqw
+id: feedback
+label: 'Website feedback'
+recipients:
+  - souravpaul505@gmail.com
+reply: ''
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''
