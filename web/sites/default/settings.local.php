@@ -151,3 +151,15 @@ $settings['skip_permissions_hardening'] = TRUE;
 # $settings['config_exclude_modules'] = ['devel', 'stage_file_proxy'];
 $settings['config_sync_directory'] = '../config/sync';
 $settings['file_private_path'] = 'sites/default/files/private';
+$databases['default']['default'] = array (
+  'database' => 'drupal10',
+  'username' => 'drupal10',
+  'password' => 'drupal10',
+  'prefix' => '',
+  'host' => 'database',
+  'port' => '3306',
+  'isolation_level' => 'READ COMMITTED',
+  'driver' => 'mysql',
+  'namespace' => 'Drupal\\mysql\\Driver\\Database\\mysql',
+  'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
+);
